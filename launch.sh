@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 # Launch MiniMax-M3 TP3 on 3× RTX PRO 6000 Blackwell
 # Run inside the container after applying patch_dist_utils.py
@@ -30,4 +29,4 @@ docker exec -d minimax-m3 bash -c 'unset NCCL_GRAPH_FILE NCCL_GRAPH_DUMP_FILE VL
 
 echo "vLLM launch initiated. Monitor with:"
 echo "  docker exec minimax-m3 tail -f /root/vllm.log"
-```
+
