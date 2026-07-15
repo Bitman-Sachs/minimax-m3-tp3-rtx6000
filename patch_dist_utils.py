@@ -1,4 +1,3 @@
-```python
 #!/usr/bin/env python3
 """
 TP3 Patch for MiniMax-M3 Vision Tower on vLLM chthonic-consecration build.
@@ -73,4 +72,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+
