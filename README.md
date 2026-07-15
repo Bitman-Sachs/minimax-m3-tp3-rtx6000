@@ -223,7 +223,7 @@ curl -s --max-time 30 -X POST http://localhost:8000/v1/chat/completions \
 
 ## Stability
 
-Running stably for 72+ hours through agentic workflows and single-user prompting. Experienced 1-2 silent API server crashes in that period — likely a bug in the b12x vLLM fork, not related to the TP3 patch. A watchdog script (`watchdog.sh`) is included that checks server health every 30 seconds and auto-restarts if needed. This is probably overkill given the rarity of the crashes, but included for completeness.
+Running stably for ~1 week through agentic workflows and single-user prompting. Experienced 1-2 silent API server crashes in that period — likely a bug in the b12x vLLM fork, not related to the TP3 patch. A watchdog script (`watchdog.sh`) is included that checks server health every 30 seconds and auto-restarts if needed. This is probably overkill given the rarity of the crashes, but included for completeness.
 
 ## How the Patch Works
 
