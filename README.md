@@ -67,8 +67,8 @@ docker run -d --name minimax-m3 \
   --gpus '"device=0,1,2"' \
   --ipc=host --shm-size=64g --cap-add SYS_NICE \
   --ulimit memlock=-1 --ulimit stack=67108864 \
-  -v /home/user/data/models:/models \
-  -v /home/user/data/cache/minimax-m3:/root/.cache \
+  -v /home/user2/data/models:/models \
+  -v /home/user2/data/cache/minimax-m3:/root/.cache \
   -p 8000:8000 \
   -e HOME=/root \
   -e CUDA_DEVICE_ORDER=PCI_BUS_ID \
