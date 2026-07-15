@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 # Watchdog for MiniMax-M3 TP3 — checks server health every 30 seconds
 # Auto-restarts vLLM if the API server dies (leaving zombie workers)
@@ -51,4 +50,4 @@ while true; do
     sleep 300
   fi
 done
-```
+
